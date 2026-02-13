@@ -1,4 +1,4 @@
-FROM nextcloud:28
+FROM nextcloud:29
 
 # Gerekli paketleri kur ve temizle
 RUN apt-get update && apt-get install -y --no-install-recommends \
